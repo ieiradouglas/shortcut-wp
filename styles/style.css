@@ -42,10 +42,18 @@ main {
 
 .text {
   padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .text label {
   color: #fff
+}
+
+#number {
+  margin: 10px;
+  padding: 10px;
 }
 
 #btEnviar {
