@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="device=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="device=device-width, initial-scale=1.0" />
   <title>Watalho</title>
-  <link rel="stylesheet" href="/style/style.css"/>
+  <link rel="stylesheet" href="/style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <main class="container">
-    <section class="box">
-      <h1>Watalho</h1>
-      <label>Digite o número do telefone:</h1>
-      <input type="tel" id="number-cel" class="number-box" placeholder="DDD+NÚMERO"/>
-      <a href="" class="button-box>Watalhar</a>
-    </section>
+  <header class="cabecalho">
+    <h1>Watalho</h1>
+    <nav class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"></img>
+    </nav>
+  </header>
+  <main>
+    <div class="text">
+      <label>Número de telefone: +55</label>
+      <input type="text" id="number" placeholder="22999999999" />
+    </div>
+    <a target="_blank" id="btEnviar" href="">Começar</a>
   </main>
+  <script src="/script.js"></script>
 </body>
 </html>
