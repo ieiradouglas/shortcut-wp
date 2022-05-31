@@ -45,6 +45,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .text label {
@@ -70,4 +71,27 @@ main {
 
 #btEnviar:hover {
   box-shadow: 1px 3px 5px black;
+}
+
+#alert {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  max-height: 49px;
+  animation-name: example;
+  animation-duration: 4s;
+  display: none;
+}
+
+#alert img {
+  position: relative;
+  width:25px;
+}
+
+@keyframes example {
+  0% {opacity:0;}
+  100% {opacity:100;}
 }
